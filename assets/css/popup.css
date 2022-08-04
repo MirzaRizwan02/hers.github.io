@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    display:block;
+    box-shadow: 2px 2px 10px silver;
+    transition: box-shadow 0.5s ease;
+    color: white;
+  }
+  
+  button:hover {
+    box-shadow: 4px 4px 15px #000000;
+  }
+  /* Modal (tło) */
+  .modal {
+      display: none; /* Domyślnie schowany */
+      position: fixed; 
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100vw; 
+      height: 100vh; 
+      overflow: auto; 
+      background-color:blue; 
+      background-color: blue; 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+      background-color:blue;
+      color: blanchedalmond;
+       box-shadow: 2px 2px 10px silver;
+      margin: 15% auto; 
+      padding: 20px;
+      border: 1px solid silver;
+      border-radius: 10px;
+      text-align: center;
+      width: 40%;
+  }
+  .ws{
+      float: left;
+      width: 250px;
+      height: 400px;
+      background-color: burlywood;
+      margin-left: 431px;
+  }
+  .ss{
+    float: right;
+    width: 250px;
+    height: 400px;
+    background-color:crimson;
+    margin-right: 431px;
+}
+  
+  img {
+    width: 50%;
+    height: 20%;
+  }
+  
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+      color:blanchedalmond;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+
+
+

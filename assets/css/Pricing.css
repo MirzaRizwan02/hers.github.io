@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+}
+
+
+.left-content{
+    position: fixed;
+}
+
+.tab-content button{
+    width: 100%;
+}
+
+@media (max-width: 775px) {
+    .left-content{
+        position:sticky;
+
+    }
+    .tab-content button{
+        width: 100%;
+    }
+    }
+    

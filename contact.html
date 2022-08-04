@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <title>BEAUTYFIRST</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/util.css" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+        /* header */
+
+        .material-icons {
+            color: rgb(7, 7, 7);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 55px;
+            padding: 25px;
+        }
+
+        .header i {
+            margin-top: 5px;
+            padding: 0 7px;
+            cursor: pointer;
+        }
+
+        .header__search form {
+            border: 1px solid #ddd;
+            height: 35px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .header__search input {
+            width: 300px;
+            padding: 10px;
+            margin: 0;
+            border-radius: 0;
+            border: none;
+            height: 100%;
+        }
+
+        .header__search button {
+            padding: 0;
+            background-color: white;
+            margin: 0;
+            height: 100%;
+            border: none;
+            border-radius: 0;
+        }
+
+        .dropdown:hover .dropdown-menu {display: block;}
+
+
+        @media (max-width: 425px) {
+            .header__search {
+                display: flex;
+            }
+
+            .header__icons .material-icons {
+                display: flex;
+            }
+
+            .header__icons .display-this {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header__search {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 941px) {
+            .header__search input {
+                width: 200px;
+            }
+        }
+
+        .megamenu {
+            position: static
+        }
+
+        .megamenu .dropdown-menu {
+            background: none;
+            border: none;
+            width: 100%;
+
+        }
+
+        code {
+            color: #ffffff !important;
+            background: #fff;
+            padding: 0.1rem 0.2rem;
+            border-radius: 0.2rem
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h2>MOH<em>TARMA</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Header Starts -->
+                        <li class="nav-item">
+                            <div class="header">
+
+                                <div class="header__search">
+                                    <form action="">
+                                        <input type="text" placeholder="Search" />
+                                        <button><i class="material-icons"
+                                                style="background-color: white;">search</i></button>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </li>
+                        <!-- Header Ends -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
+                            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                                <div class="container">
+                                    <div class="row rounded-0 m-0 shadow-lg bg-white border-dark">
+                                        <div class="col-lg-12">
+                                            <div class="p-4">
+                                                <div class="row">
+                                                    <div class="col-lg-3 mb-3">
+                                                        <h6 class="font-weight-bold text-uppercase"
+                                                            style="color: #f33f3f;">Heading one</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0"
+                                                                    style="color: black;">Home</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">About</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Help</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Account</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-3">
+                                                        <h6 class="font-weight-bold text-uppercase"
+                                                            style="color: #f33f3f;">Heading three</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Home</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">About</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Help</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Account</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-3">
+                                                        <h6 class="font-weight-bold text-uppercase"
+                                                            style="color: #f33f3f;">Heading two</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Home</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">About</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Help</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Account</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 mb-3">
+                                                        <h6 class="font-weight-bold text-uppercase"
+                                                            style="color: #f33f3f;">Heading four</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Home</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">About</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Help</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link text-small pb-0 "
+                                                                    style="color: black;">Account</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4><i class="fas fa-user-circle text-danger" id="myBtn"></i></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- POP UP -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="form-popup" id="myForm">
+                <div class="container-login100 p-50">
+                    <div class="wrap-login100 p-l-55 p-r-55 p-t-20 p-b-10 m-t-70 bg-white">
+                        <form class="login100-form validate-form">
+                            <span class="close">&times;</span>
+                            <span class="login100-form-title p-b-37">
+                                LOGIN
+                            </span>
+
+                            <div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
+                                <input class="input100" type="text" name="username" placeholder="username or email">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input m-b-25" data-validate="Enter password">
+                                <input class="input100" type="password" name="pass" placeholder="password">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="container-login100-form-btn">
+                                <button class="login100-form-btn">
+                                    <a href="Dashboard/ADMIN VIEW/index.html" style="color: white;">Sign In</a>
+                                </button>
+                            </div>
+
+                            <div class="text-center p-t-36 p-b-10">
+                                <span class="txt1">
+                                    Or login with
+                                </span>
+                            </div>
+
+                            <div class="flex-c p-b-40">
+                                <a href="#" class="login100-social-item">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#" class="login100-social-item">
+                                    <img src="assets/images/icons/icon-google.png" alt="GOOGLE">
+                                </a>
+                            </div>
+
+                            <div class="text-center">
+                                <a href="registeration.html" class="txt2">
+                                    OR REGISTER YOURSELF
+                                </a>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+
+                <div id="dropDownSelect1"></div>
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+    </script>
+
+    <!-- POP UP END -->
+
+    <!-- Page Content -->
+    <div class="page-heading contact-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>contact us</h4>
+              <h2>let’s get in touch</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="find-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Our Location on Maps</h2>
+            </div>
+          </div>
+          <div class="col-md-8">
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+            <div id="map">
+              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="left-content">
+              <h4>About our Site</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="send-message">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Send us a Message</h2>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <ul class="accordion">
+              <li>
+                  <a>Believe Us</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
+                  </div>
+              </li>
+              <li>
+                  <a>First To Join</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
+                  </div>
+              </li>
+              <li>
+                  <a>Make Patnership</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
+                  </div>
+              </li>
+              <li>
+                  <a>Select The Content</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>@Copyright by <b>BEAUTYFIRST</b> company 
+            
+                and creator<br> is <b>SHAYAN AHMED KHAN</b> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
